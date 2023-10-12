@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in-page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="page-container flex">
+        <div class="wrapper flex">
+            <div class="image-container half">
+                <img src="log-in-image.jpg" alt="">
+            </div>
+            <div class="form-container half flex">
+                <form class="form-box">
+                    <h1>Login</h1>
+                    <div class="flex user-fields">
+                        <label for="username">Username</label>
+                        <input type="text" id="username">
+                        <label for="password">Password</label>
+                        <input type="text" id="password">
+                        <select name="view" id="view">
+                            <option value="">Log in as</option>
+                            <option value="User">User</option>
+                            <option value="Admin">Admin</option>
+                            <option value="company">Recruiter</option>
+                        </select>
+                        <button class="button">Log in</button>
+                    </div>
+                    <div class="redirect">
+                        <p><a href="#">Forget password?</a></p>
+                        <p>Don't have an account<a href="#">Sign up now.</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+   </div> 
+
+</body>
+
+</html>
